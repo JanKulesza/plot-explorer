@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "appName": "Działki Finder",
+    "generatedAt": "2026-06-16T00:00:00Z",
+    "currency": "PLN",
+    "defaultCenter": {
+      "lat": 51.7592,
+      "lng": 19.455
+    },
+    "defaultZoom": 10
+  },
+  "plots": [
+    {
+      "id": "p-001",
+      "title": "Działka budowlana w Rogowie",
+      "type": "budowlana",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 235000,
+      "areaM2": 1200,
+      "pricePerM2": 196,
+      "location": {
+        "city": "Rogów",
+        "street": "ul. Leśna",
+        "voivodeship": "łódzkie",
+        "district": "brzeziński"
+      },
+      "coordinates": {
+        "lat": 51.8154,
+        "lng": 19.7913
+      },
+      "description": "Działka budowlana położona w spokojnej okolicy. Teren płaski, regularny kształt, dojazd drogą asfaltową.",
+      "features": [
+        "MPZP",
+        "media w drodze",
+        "dojazd asfaltowy",
+        "teren płaski"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef",
+        "https://images.unsplash.com/photo-1460317442991-0ec209397118"
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": "p-002",
+      "title": "Działka rolna w Koluszkach",
+      "type": "rolna",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 149000,
+      "areaM2": 5600,
+      "pricePerM2": 27,
+      "location": {
+        "city": "Koluszki",
+        "street": "ul. Polna",
+        "voivodeship": "łódzkie",
+        "district": "łódzki wschodni"
+      },
+      "coordinates": {
+        "lat": 51.7421,
+        "lng": 19.8132
+      },
+      "description": "Duża działka rolna z dobrym dojazdem i spokojnym otoczeniem. Idealna jako inwestycja lub gospodarstwo.",
+      "features": [
+        "dojazd gruntowy",
+        "klasa IV",
+        "spokojna okolica"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1500937386664-56d1dfef3854",
+        "https://images.unsplash.com/photo-1464299723578-a2f0ef8b9f41"
+      ],
+      "isFavorite": true
+    },
+    {
+      "id": "p-003",
+      "title": "Działka rekreacyjna w Brzezinach",
+      "type": "rekreacyjna",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 89000,
+      "areaM2": 800,
+      "pricePerM2": 111,
+      "location": {
+        "city": "Brzeziny",
+        "street": "ul. Spacerowa",
+        "voivodeship": "łódzkie",
+        "district": "brzeziński"
+      },
+      "coordinates": {
+        "lat": 51.8036,
+        "lng": 19.7459
+      },
+      "description": "Zielona działka rekreacyjna z szybkim dojazdem do miasta. Dobry wybór pod weekendowy odpoczynek.",
+      "features": [
+        "las w pobliżu",
+        "cisza",
+        "dojazd utwardzony"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+        "https://images.unsplash.com/photo-1448375240586-882707db888b"
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": "p-004",
+      "title": "Działka inwestycyjna w Łodzi",
+      "type": "inwestycyjna",
+      "purpose": "na sprzedaż",
+      "status": "zarezerwowana",
+      "price": 640000,
+      "areaM2": 3200,
+      "pricePerM2": 200,
+      "location": {
+        "city": "Łódź",
+        "street": "ul. Zakładowa",
+        "voivodeship": "łódzkie",
+        "district": "widzew"
+      },
+      "coordinates": {
+        "lat": 51.7819,
+        "lng": 19.5319
+      },
+      "description": "Atrakcyjna działka pod zabudowę inwestycyjną z dobrym dostępem do głównych arterii miasta.",
+      "features": [
+        "media",
+        "MPZP",
+        "blisko komunikacji",
+        "teren inwestycyjny"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab"
+      ],
+      "isFavorite": true
+    },
+    {
+      "id": "p-005",
+      "title": "Działka budowlana w Tuszynie",
+      "type": "budowlana",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 315000,
+      "areaM2": 1500,
+      "pricePerM2": 210,
+      "location": {
+        "city": "Tuszyn",
+        "street": "ul. Polna",
+        "voivodeship": "łódzkie",
+        "district": "łódzki wschodni"
+      },
+      "coordinates": {
+        "lat": 51.6094,
+        "lng": 19.5336
+      },
+      "description": "Przestronna działka budowlana z miejscowym planem zagospodarowania. Idealna pod dom jednorodzinny.",
+      "features": [
+        "MPZP",
+        "media",
+        "szybki dojazd",
+        "regularny kształt"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "https://images.unsplash.com/photo-1500673922987-e212871fec22"
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": "p-006",
+      "title": "Działka rolna w Głownie",
+      "type": "rolna",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 118000,
+      "areaM2": 4800,
+      "pricePerM2": 25,
+      "location": {
+        "city": "Głowno",
+        "street": "ul. Łąkowa",
+        "voivodeship": "łódzkie",
+        "district": "zgierski"
+      },
+      "coordinates": {
+        "lat": 51.9654,
+        "lng": 19.7158
+      },
+      "description": "Cicha działka rolna na obrzeżach miasta. Dobry grunt i łatwy dojazd od drogi lokalnej.",
+      "features": [
+        "dobra klasa gruntu",
+        "spokojna okolica",
+        "dojazd lokalny"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1473448912268-2022ce9509d8",
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+      ],
+      "isFavorite": false
+    },
+    {
+      "id": "p-007",
+      "title": "Działka rekreacyjna w Skierniewicach",
+      "type": "rekreacyjna",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 99000,
+      "areaM2": 900,
+      "pricePerM2": 110,
+      "location": {
+        "city": "Skierniewice",
+        "street": "ul. Sosnowa",
+        "voivodeship": "łódzkie",
+        "district": "skierniewicki"
+      },
+      "coordinates": {
+        "lat": 51.9544,
+        "lng": 20.1584
+      },
+      "description": "Działka w otoczeniu zieleni, świetna pod domek letniskowy albo odpoczynek poza miastem.",
+      "features": [
+        "blisko lasu",
+        "spokojna okolica",
+        "media w pobliżu"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
+        "https://images.unsplash.com/photo-1473773508845-188df298d2d8"
+      ],
+      "isFavorite": true
+    },
+    {
+      "id": "p-008",
+      "title": "Działka budowlana w Zgierzu",
+      "type": "budowlana",
+      "purpose": "na sprzedaż",
+      "status": "dostępna",
+      "price": 278000,
+      "areaM2": 1100,
+      "pricePerM2": 253,
+      "location": {
+        "city": "Zgierz",
+        "street": "ul. Brzozowa",
+        "voivodeship": "łódzkie",
+        "district": "zgierski"
+      },
+      "coordinates": {
+        "lat": 51.8556,
+        "lng": 19.4068
+      },
+      "description": "Atrakcyjna działka blisko zabudowy jednorodzinnej. Dobry wybór pod dom w spokojnej dzielnicy.",
+      "features": [
+        "MPZP",
+        "media",
+        "ogrodzona",
+        "blisko szkoły"
+      ],
+      "media": [
+        "https://images.unsplash.com/photo-1517048676732-d65bc937f952",
+        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2"
+      ],
+      "isFavorite": false
+    }
+  ],
+  "filters": {
+    "typeOptions": [
+      "wszystkie",
+      "budowlana",
+      "rolna",
+      "rekreacyjna",
+      "inwestycyjna"
+    ],
+    "purposeOptions": [
+      "wszystkie",
+      "na sprzedaż",
+      "do wynajmu"
+    ],
+    "statusOptions": [
+      "wszystkie",
+      "dostępna",
+      "zarezerwowana",
+      "sprzedana"
+    ]
+  }
+}
