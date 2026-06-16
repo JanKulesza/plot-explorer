@@ -1,6 +1,8 @@
+import { Button } from "../components/ui/button"
+
 const PlotListingsPage = () => {
   return (
-    <div>PlotListingsPage</div>
+    <Button variant="outline">Plot Listings Page</Button>
   )
 }
 
