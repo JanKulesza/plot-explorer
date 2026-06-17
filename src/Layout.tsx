@@ -2,30 +2,30 @@ import { Link, Outlet } from "react-router-dom"
 import icon from "./assets/plot-explorer.svg"
 import gitHub from "./assets/github.svg"
 import linkedIn from "./assets/linkedin.svg"
-import "./Layout.css"
+// import "./Layout.css"
 
 const Layout = () => {
   return (
     <>
-    <header className="header">
-        <Link className="icon-text" to="/">
-        <img src={icon} alt="Plot Explorer" />
-        <h1>Plot Explorer</h1>
+    <header className="flex justify-between items-center p-2 border-b border-border">
+        <Link className="flex items-center gap-2" to="/">
+            <img src={icon} alt="Plot Explorer" />
+            <h1 className="text-xl font-bold">Plot Explorer</h1>
         </Link>
-        <nav>
-            <Link className="link" to="/">Search</Link>
-            <Link className="link" to="/whishlist">Wishlist</Link>
+        <nav className="flex gap-4 mr-4">
+            <Link className="hover:text-primary font-semibold" to="/">Search</Link>
+            <Link className="hover:text-primary font-semibold" to="/whishlist">Wishlist</Link>
         </nav>
     </header>
     <Outlet />
-    <footer className="footer">
-        <div>
-        <h2>Connect with me</h2>
-        <a className="link icon-text" href="https://github.com/JanKulesza" target="_blank" rel="noopener noreferrer">
+    <footer className="border-t border-border p-4 text-center gap-2">
+        <div className="flex flex-col items-center mb-8">
+        <h2 className="text-xl font-semibold">Connect with me</h2>
+        <a className="flex gap-2 hover:text-primary" href="https://github.com/JanKulesza" target="_blank" rel="noopener noreferrer">
             <img src={gitHub} alt="GitHub" />
             GitHub
         </a>
-        <a className="link icon-text" href="https://www.linkedin.com/in/jan-kulesza-277a11275/" target="_blank" rel="noopener noreferrer">
+        <a className="flex gap-2 hover:text-primary" href="https://www.linkedin.com/in/jan-kulesza-277a11275/" target="_blank" rel="noopener noreferrer">
             <img src={linkedIn} alt="LinkedIn" />
             LinkedIn
         </a>
